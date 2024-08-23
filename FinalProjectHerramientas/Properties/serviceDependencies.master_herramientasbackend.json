@@ -1,11 +1,12 @@
 {
   "dependencies": {
-    "apis1": {
+    "apis2": {
+      "apiEndpoint": "https://finalprojectherramientasapi.azure-api.net/",
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/FinalProjectHerramientasapi/apis/FinalProjectHerramientas",
       "type": "apis.azure"
     },
     "mssql1": {
-      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/ProjectFinalHerramientas/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection_69AC2E419F",
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/HerramientasBackend/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection_69AC2E419F",
       "secretStore": "AzureAppSettings",
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/servidoridat/databases/dbHerramientas",
       "type": "mssql.azure",
