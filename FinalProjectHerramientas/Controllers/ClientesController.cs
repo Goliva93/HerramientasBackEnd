@@ -65,6 +65,7 @@ namespace FinalProjectHerramientas.Controllers
                     return NotFound();
                 }
                 else {
+                  //esto si ocurre un error
                     throw;
                 }
             }
